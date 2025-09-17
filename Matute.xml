@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Denuncia</title>
+        <author>Antolina Matute</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Creado en digital por Nicolás Vaughan
+          para el curso 
+          Gestión y análisis de datos, imágenes y texto - 
+          Tec Monterrey (2025-20) 
+          (Universidad de los Andes, Bogotá)
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+          <!--José Luis Ramírez Luengo, 
+            <title>La cotidianidad perseguida: lo prohibido en la América virreinal</title>. 
+            En: C. Company Company (coord.), 
+            <title>Hablar y leer en América</title>. 
+            México: El Colegio Nacional; 
+            Colombia: Universidad de los Andes / 
+            Centro Regional para el Fomento del Libro en América Latina y el Caribe, 2023, 
+            p. 223.-->
+          <biblStruct type="bookSection">
+            <analytic>
+              <title level="a">
+                La cotidianidad perseguida:
+                lo prohibido en la América virreinal
+              </title>
+              <author>
+                <forename>José Luis</forename>
+                <surname>Ramírez Luengo</surname>
+              </author>
+            </analytic>
+            <monogr>
+              <title level="m">
+                Hablar y vivir en América
+              </title>
+              <editor>
+                <forename>Concepción</forename>
+                <surname>Company Company</surname>
+              </editor>
+              <imprint>
+                <pubPlace>Ciudad de México; Bogotá</pubPlace>
+                <publisher>
+                  El Colegio Nacional de México; 
+                  Universidad de los Andes; 
+                  Centro Regional para el Fomento del Libro 
+                  en América Latina y el Caribe
+                </publisher>
+                <date>2023</date>
+                <biblScope unit="page">
+                  203-258
+                </biblScope>
+                <biblScope unit="page">
+                  (223)
+                </biblScope>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <lb n="1"/>
+      <opener>
+        <salute>
+          <choice>
+            <abbr><supplied>S.</supplied>r</abbr>
+            <expan>Señor</expan>
+          </choice>
+          <choice>
+            <abbr>D.n</abbr>
+            <expan>Don</expan>
+          </choice>
+          <persName role="eclesiástico">
+            Antonio 
+            Cort<choice><orig>e</orig><reg>é</reg></choice>s
+          </persName>
+        </salute>
+      </opener>
+      
+      <div>
+        <p>
+          <lb n="2"/>
+          Se 
+          <choice>
+            <orig>denunsio</orig>
+            <reg>denunció</reg>
+          </choice>
+          a su 
+          <choice>
+            <orig><subst><del>s</del><add>C</add></subst>eñoria</orig>
+            <reg>señoría</reg>
+          </choice>
+          al
+          <choice>
+            <abbr>p.e</abbr>
+            <expan>padre</expan>
+          </choice>
+          <choice>
+            <abbr>D.n</abbr>
+            <expan>Don</expan>
+          </choice>
+          <persName>
+            Jos<corr>é</corr>
+            
+            <lb n="3"/>
+            Mariano Villavicencio
+          </persName><corr>,</corr>
+          que fue mi confesor<corr>,</corr>
+          
+          <lb n="4"/>
+          a quien 
+          <choice>
+            <orig>trate</orig>
+            <reg>traté</reg>
+          </choice>
+          muchos 
+          <choice>
+            <orig>dias</orig>
+            <reg>días</reg>
+          </choice><corr>,</corr>
+          y siempre me
+          <choice>
+          <orig>desia</orig>
+          <reg>decía</reg>
+          </choice>
+          
+          <lb n="5"/>
+          en el 
+          conf<subst><del>i</del><add>e</add></subst>sionario<corr>,</corr>
+          que me esperaba en su casa<corr>;</corr>
+          
+          <lb n="6"/>
+          y yo 
+          acostumbra<corr>ba</corr>
+          el ir a menudo<corr>,</corr>
+          y unas 
+          <choice>
+            <orig>quatro</orig>
+            <reg>cuatro</reg>
+          </choice>
+          
+          <lb n="7"/>
+          <choice>
+            <orig>veses</orig>
+            <reg>veces</reg>
+          </choice>
+          me
+          <choice>
+            <orig>solicito</orig>
+            <reg>solicitó</reg>
+          </choice>
+          para hacer cosas malas<corr>.</corr>
+          <choice>
+            <orig>y</orig> 
+            <reg>Y</reg>
+          </choice>
+          porque me 
+          ha<lb n="8" break="no"/>llo 
+          <sic><pc>·</pc></sic>
+          obligada y mi confesor me lo 
+          <choice>
+            <orig>a</orig>
+            <reg>ha</reg>
+          </choice>
+          mandado<corr>,</corr> 
+          le 
+          <choice>
+            <orig>doi</orig>
+            <reg>doy</reg>
+          </choice>
+          par<lb n="9" break="no"/>te
+          a su
+          <choice>
+            <orig>ceñoria</orig> 
+            <reg>señoría</reg>
+          </choice><corr>.</corr>
+          <choice>
+            <orig>y</orig> 
+            <reg>Y</reg>
+          </choice>
+          si su
+          <choice>
+            <orig>ceñoria</orig> 
+            <reg>señoría</reg>
+          </choice>
+          deja la causa en otro<corr>,</corr>
+          
+          <lb n="10"/>
+          le suplico por el amor de Dios que sea en el
+          <choice>
+            <abbr>p.e</abbr>
+            <expan>padre</expan>
+          </choice>
+          <choice>
+            <abbr>fa</abbr>
+            <expan>fray</expan>
+          </choice>
+          
+          <lb n="11"/>
+          <persName>
+            <choice>
+              <orig>Jose</orig>
+              <reg>José</reg>
+            </choice>
+            Vidaure
+          </persName><corr>,</corr>
+          que es mi confesor<corr>.</corr>
+        </p>
+      </div>
+      
+      
+      <closer>
+        <salute>
+          <choice>
+            <orig>y</orig>
+            <reg>Y</reg>
+          </choice>
+          no 
+          <sic><pc>·</pc></sic>
+          <choice>
+          <orig>ofresiendose</orig>
+          <reg>ofreciéndose</reg>
+          </choice>
+          
+          <lb n="12"/>
+          otra cosa 
+          <choice>
+            <orig>mas</orig>
+            <reg>más</reg>
+          </choice>
+          que rogar a Dios que 
+          <corr>dé a</corr>
+          la vida de
+          
+          <lb n="13"/>
+          su 
+          <choice>
+            <orig>ceñoria</orig> 
+            <reg>señoría</reg>
+          </choice>
+          <choice>
+            <abbr>msas</abbr>
+            <expan>muchos años</expan>
+          </choice><corr>,</corr>
+          su servidora<corr>,</corr>
+          <choice>
+            <abbr>q.e s M B</abbr>
+            <expan>que su mano besa</expan>
+          </choice><corr>,</corr>
+        </salute>
+        <signed><lb n="14"/>
+          <persName>Antolina Matute</persName>
+        </signed>
+        <figure>
+          <lb n="15"/>
+          <figDesc>
+            Floritura pegada a la firma
+          </figDesc>
+          <graphic url="img/floritura.png"/>
+        </figure>
+      </closer>
+      
+      
+    </body>
+  </text>
+</TEI>
